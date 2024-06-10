@@ -1,0 +1,31 @@
+/*ゲーム全体の装飾*/
+body {
+  font-size: 6em;
+  text-align: center;
+}
+
+/*タイマーの領域の装飾*/
+.count {
+  margin: 0;
+  font-weight: bold;
+  color: #888;
+}
+
+/*テキストが表示される領域*/
+.wrap {
+  margin: 20px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*正しく対応された場合のテキスト*/
+.typed {
+  color: lightgreen;
+}
+
+/*タイプミスの場合の背景*/
+.mistyped {
+  background-color: red;
+}
