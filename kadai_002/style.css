@@ -1,0 +1,50 @@
+/*ゲーム全体の装飾*/
+body {
+  font-size: 6em;
+  text-align: center;
+  height: 100%;
+}
+
+/*タイマーの領域の装飾*/
+.count {
+  margin: 0;
+  font-weight: bold;
+  color: #888;
+}
+
+/*テキストが表示される領域*/
+.wrap {
+  margin: 20px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*タイプ数の装飾*/
+.tpcount {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: #888;
+}
+
+#start {
+  margin: 0;
+}
+
+/*正しく対応された場合のテキスト*/
+.typed {
+  color: lightgreen;
+}
+
+/*タイプミスの場合の背景*/
+.mistyped {
+  background-color: red;
+}
+
+/*正タイプ数が10の倍数の場合のタイプ数の文字の色*/
+.tpcount10 {
+  color: red;
+}
